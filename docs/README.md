@@ -1,6 +1,6 @@
 # 🐿️ **Peek-A-Nut**
 
-> Peek-A-Nut is a cozy hidden object game where you help Hazel the squirrel gather nuts before winter! Search, click, and collect while avoiding tricky decoys—all within a limited time! 🌰✨
+> Peek-A-Nut is a cozy hidden object game where you help Hazel the squirrel gather nuts before winter! Search, click, and collect while avoiding tricky decoys - all within a limited time! 🌰✨
 
 ---
 
