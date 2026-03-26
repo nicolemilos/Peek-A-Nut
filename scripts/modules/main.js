@@ -74,46 +74,46 @@ function gameLoop(totalRunningTime) {
 
  function setupGame() { // Setting the nuts/fakenuts/blocker all to their place they belong
 
-    global.nuts.push(new Nut(195, 465, 20, "auto", "../images/nut4.png"));
-    global.fakenuts.push(new FakeNut(215, 443, 20, 20, "../images/fakenut3.png"));
-    global.block.push(new Block(200,430,39,51.5, "../images/basket.png"));
+    global.nuts.push(new Nut(195, 465, 20, "auto", "../../images/nut4.png"));
+    global.fakenuts.push(new FakeNut(215, 443, 20, 20, "../../images/fakenut3.png"));
+    global.block.push(new Block(200,430,39,51.5, "../../images/basket.png"));
 
-    global.fakenuts.push(new FakeNut(635, 450, 20, 20, "../images/fakenut2.png"));
+    global.fakenuts.push(new FakeNut(635, 450, 20, 20, "../../images/fakenut2.png"));
 
-    global.block.push(new Block(510,390,139,74.5, "../images/bush2.png"));
-    global.nuts.push(new Nut(530, 400, 30, "auto", "../images/nut3.png"));
-    global.block.push(new Block(430,390,140,74, "../images/bush1.png"));
+    global.block.push(new Block(510,390,139,74.5, "../../images/bush2.png"));
+    global.nuts.push(new Nut(530, 400, 30, "auto", "../../images/nut3.png"));
+    global.block.push(new Block(430,390,140,74, "../../images/bush1.png"));
 
-    global.fakenuts.push(new FakeNut(450, 495, 20, 20, "../images/fakenut1.png"));
+    global.fakenuts.push(new FakeNut(450, 495, 20, 20, "../../images/fakenut1.png"));
 
-    global.nuts.push(new Nut(547, 530, 25, "auto", "../images/nut2.png"));
-    global.block.push(new Block(300,400,351,155, "../images/bench.png"));
-    global.nuts.push(new Nut(710, 128, 20, "auto", "../images/nut2.png"));
-    global.nuts.push(new Nut(713, 420, 20, "auto", "../images/nut4.png"));
-    global.block.push(new Block(715,130,46.5,319.5, "../images/lantern1.png"));
+    global.nuts.push(new Nut(547, 530, 25, "auto", "../../images/nut2.png"));
+    global.block.push(new Block(300,400,351,155, "../../images/bench.png"));
+    global.nuts.push(new Nut(710, 128, 20, "auto", "../../images/nut2.png"));
+    global.nuts.push(new Nut(713, 420, 20, "auto", "../../images/nut4.png"));
+    global.block.push(new Block(715,130,46.5,319.5, "../../images/lantern1.png"));
 
-    global.nuts.push(new Nut(1050, 380, 30, "auto", "../images/nut2.png"));
-    global.nuts.push(new Nut(1255, 360, 20, "auto", "../images/nut4.png"));
-    global.fakenuts.push(new FakeNut(935, 452, 20, 20, "../images/fakenut1.png"));
-    global.nuts.push(new Nut(1210, 186, 25, "auto", "../images/nut1.png"));
-    global.block.push(new Block(925,200,352.5,288, "../images/playground.png"));
+    global.nuts.push(new Nut(1050, 380, 30, "auto", "../../images/nut2.png"));
+    global.nuts.push(new Nut(1255, 360, 20, "auto", "../../images/nut4.png"));
+    global.fakenuts.push(new FakeNut(935, 452, 20, 20, "../../images/fakenut1.png"));
+    global.nuts.push(new Nut(1210, 186, 25, "auto", "../../images/nut1.png"));
+    global.block.push(new Block(925,200,352.5,288, "../../images/playground.png"));
 
-    global.block.push(new Block(930,65,72.5,502.5, "../images/lantern2.png"));
-    global.block.push(new Block(865,455,74,109.5, "../images/trashcan.png"));
-    global.block.push(new Block(720,465,139,74.5, "../images/bush2.png"));
+    global.block.push(new Block(930,65,72.5,502.5, "../../images/lantern2.png"));
+    global.block.push(new Block(865,455,74,109.5, "../../images/trashcan.png"));
+    global.block.push(new Block(720,465,139,74.5, "../../images/bush2.png"));
 
-    global.nuts.push(new Nut(905, 540, 30, "auto", "../images/nut1.png"));
-    global.block.push(new Block(900,550,67.5,28.5, "../images/stone1.png"));
+    global.nuts.push(new Nut(905, 540, 30, "auto", "../../images/nut1.png"));
+    global.block.push(new Block(900,550,67.5,28.5, "../../images/stone1.png"));
 
-    global.nuts.push(new Nut(300, 535, 25, "auto", "../images/nut3.png"));
-    global.block.push(new Block(250,530,64,38.5, "../images/stone2.png"));
-    global.block.push(new Block(1150,430,140,74, "../images/bush1.png"));
+    global.nuts.push(new Nut(300, 535, 25, "auto", "../../images/nut3.png"));
+    global.block.push(new Block(250,530,64,38.5, "../../images/stone2.png"));
+    global.block.push(new Block(1150,430,140,74, "../../images/bush1.png"));
     
-    global.nuts.push(new Nut(387, 426, 15, "auto", "../images/nut1.png"));
-    global.nuts.push(new Nut(573, 200, 25, "auto", "../images/nut4.png"));
-    global.nuts.push(new Nut(100, 165, 30, "auto", "../images/nut2.png"));
-    global.nuts.push(new Nut(975, 148, 20, "auto", "../images/nut3.png"));
-    global.nuts.push(new Nut(840, 295, 20, "auto", "../images/nut2.png"));
+    global.nuts.push(new Nut(387, 426, 15, "auto", "../../images/nut1.png"));
+    global.nuts.push(new Nut(573, 200, 25, "auto", "../../images/nut4.png"));
+    global.nuts.push(new Nut(100, 165, 30, "auto", "../../images/nut2.png"));
+    global.nuts.push(new Nut(975, 148, 20, "auto", "../../images/nut3.png"));
+    global.nuts.push(new Nut(840, 295, 20, "auto", "../../images/nut2.png"));
     
 
     global.squirrel = new Squirrel(-40,230,250,350);
